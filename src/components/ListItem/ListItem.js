@@ -10,8 +10,9 @@ const listNodes = (props) => (
 const styles = StyleSheet.create({
   listItem: {
     width: "100%",
+    margin: 5,
     padding: 10,
-    backgroundColor: "#eee"
+    backgroundColor: "#eee",
   }
 })
 
