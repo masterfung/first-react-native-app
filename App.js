@@ -14,21 +14,35 @@ export default class App extends React.Component {
   }
 
   placeNameChangedHandler = (placeName) => {
-
     this.setState(prevState => {
       return {
-        places: prevState.places.concat(placeName)
+        places: prevState.places.concat({
+          key: Math.random(),
+          name: placeName,
+          image: {
+            uri: 'https://picsum.photos/200/300/?random'
+          }
+        })
       };
     });
   }
 
-  render() {
+  removeSelectedObject = (key) => {
+    this.setState(prevState => {
+      return {
+        places: prevState.places.filter((place) => {
+          return place.key !== key; // if returns false, then item is removed
+        })
+      }
+    });
+  }
 
+  render() {
     return (
       <View style={styles.mainContainer}>
         <PlaceInput onPlaceAdded={this.placeNameChangedHandler} />
 
-        <PlaceList places={this.state.places} />
+        <PlaceList places={this.state.places} onItemDeleted={this.removeSelectedObject}/>
       </View>
     );
   }
