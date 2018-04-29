@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/accentedchild/Projects/my-first-app/node_modules/react-native/React/Views/RCTView.m \
+  /Users/accentedchild/Projects/my-first-app/node_modules/react-native/React/Views/RCTView.h \
+  /Users/accentedchild/Projects/my-first-app/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/accentedchild/Projects/my-first-app/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/accentedchild/Projects/my-first-app/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/accentedchild/Projects/my-first-app/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h \
+  /Users/accentedchild/Projects/my-first-app/node_modules/react-native/React/Views/RCTBorderDrawing.h \
+  /Users/accentedchild/Projects/my-first-app/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/accentedchild/Projects/my-first-app/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/accentedchild/Projects/my-first-app/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/accentedchild/Projects/my-first-app/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/accentedchild/Projects/my-first-app/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/accentedchild/Projects/my-first-app/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/accentedchild/Projects/my-first-app/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/accentedchild/Projects/my-first-app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/accentedchild/Projects/my-first-app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/accentedchild/Projects/my-first-app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/accentedchild/Projects/my-first-app/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/accentedchild/Projects/my-first-app/node_modules/react-native/React/Modules/RCTI18nUtil.h
