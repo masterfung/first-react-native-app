@@ -7,17 +7,16 @@ export const addPlace = (placeName) => {
   };
 }
 
-export const deletePlace = (key) => {
+export const deletePlace = () => {
   return {
-    type: DELETE_PLACE,
-    key: key //need to double check
+    type: DELETE_PLACE
   };
 }
 
 export const selectPlace = (key) => {
   return {
     type: SELECT_PLACE,
-    key: key
+    placeKey: key
   };
 }
 
