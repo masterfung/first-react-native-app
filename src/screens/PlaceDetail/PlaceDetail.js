@@ -7,7 +7,7 @@ const placeDetail = props => {
   let modalContent = null;
 
   return (
-    <View style={styles.modalContainer}>
+    <View style={styles.container}>
       <View style={styles.informationContainer}>
         <Image source={props.selectedPlace.image} style={styles.placeImage}/>
         <Text style={styles.titleText}> {props.selectedPlace.name} </Text>
@@ -18,14 +18,13 @@ const placeDetail = props => {
             <Icon size={30} name="ios-trash" color="red" />
           </View>
         </TouchableOpacity>
-        <Button title="Close" onPress={props.onModalClose}></Button>
       </View>
     </View>
   )
 };
 
 const styles = StyleSheet.create({
-  modalContainer: {
+  container: {
     margin: 35,
     flex: 1,
   },
