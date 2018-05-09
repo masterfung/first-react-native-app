@@ -15,7 +15,7 @@ class AuthScreen extends Component {
   render() {
     return (
 
-      <ImageBackground source={{uri: 'https://picsum.photos/200/300/?random'}} style={styles.imageSizing}>
+      <ImageBackground source={{uri: 'https://picsum.photos/800/800/?random'}} style={styles.imageSizing}>
         <View style={styles.authContainer}>
         <MainText>
           <HeadingInput>Please Log In</HeadingInput>
