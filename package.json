@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "react": "16.3.0",
-    "react-native": "~0.54.1",
+    "react-native": "~0.87.1",
     "react-native-navigation": "^1.1.451",
     "react-native-vector-icons": "^4.6.0",
     "react-native-web": "^0.6.1",
